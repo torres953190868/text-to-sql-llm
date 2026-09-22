@@ -1,0 +1,9 @@
+# Reports
+report_2575016.pdf
+report_2575016.txt
+
+# Local agent instructions and notebook checkpoints
+AGENTS.md
+.ipynb_checkpoints/
+.npm-cache/
+.playwright-mcp/
