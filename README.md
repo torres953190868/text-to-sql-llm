@@ -49,7 +49,7 @@ All values below are taken from the saved notebook outputs. Generation uses gree
 | Configuration | Exact Match | Executable SQL | Micro F1 | Macro F1 |
 |---|---:|---:|---:|---:|
 | Base model + few-shot prompting | 34.69% | 79.59% | 0.1613 | 0.3376 |
-| **LoRA + few-shot inference** | **69.39%** | **89.80%** | **0.5567** | **0.7005** |
+| **LoRA + zero-shot inference** | **69.39%** | **89.80%** | **0.5567** | **0.7005** |
 | Base model + few-shot + CFG | 26.53% | 59.18% | 0.1333 | 0.2472 |
 | LoRA + few-shot + CFG | 8.16% | 12.24% | 0.4622 | 0.0639 |
 
@@ -164,7 +164,7 @@ The notebook installs its dependencies, downloads the GeoQuery assets when they 
 | 配置 | 完全匹配率 | SQL 可执行率 | Micro F1 | Macro F1 |
 |---|---:|---:|---:|---:|
 | 基础模型 + few-shot | 34.69% | 79.59% | 0.1613 | 0.3376 |
-| **LoRA + few-shot 推理** | **69.39%** | **89.80%** | **0.5567** | **0.7005** |
+| **LoRA + zero-shot 推理** | **69.39%** | **89.80%** | **0.5567** | **0.7005** |
 | 基础模型 + few-shot + CFG | 26.53% | 59.18% | 0.1333 | 0.2472 |
 | LoRA + few-shot + CFG | 8.16% | 12.24% | 0.4622 | 0.0639 |
 
